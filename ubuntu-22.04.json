@@ -10,7 +10,7 @@
                         "source": "dhcp"
                     },
                     {
-                        "address": "fe80::9657:bf23:6259:2bd6/64",
+                        "address": "fe80::b90a:f06a:e9db:76fe/64",
                         "family": 10,
                         "scope": "link",
                         "source": "static"
@@ -65,7 +65,7 @@
                     "SUBSYSTEM": "net",
                     "SYSTEMD_ALIAS": "/sys/subsystem/net/devices/enp0s3",
                     "TAGS": ":systemd:",
-                    "USEC_INITIALIZED": "1207246",
+                    "USEC_INITIALIZED": "1168391",
                     "attrs": {
                         "addr_assign_type": "0",
                         "addr_len": "6",
@@ -119,7 +119,7 @@
                         "speed": "1000",
                         "statistics/collisions": "0",
                         "statistics/multicast": "0",
-                        "statistics/rx_bytes": "52546638",
+                        "statistics/rx_bytes": "52540400",
                         "statistics/rx_compressed": "0",
                         "statistics/rx_crc_errors": "0",
                         "statistics/rx_dropped": "0",
@@ -130,16 +130,16 @@
                         "statistics/rx_missed_errors": "0",
                         "statistics/rx_nohandler": "0",
                         "statistics/rx_over_errors": "0",
-                        "statistics/rx_packets": "35206",
+                        "statistics/rx_packets": "35124",
                         "statistics/tx_aborted_errors": "0",
-                        "statistics/tx_bytes": "210485",
+                        "statistics/tx_bytes": "189106",
                         "statistics/tx_carrier_errors": "0",
                         "statistics/tx_compressed": "0",
                         "statistics/tx_dropped": "0",
                         "statistics/tx_errors": "0",
                         "statistics/tx_fifo_errors": "0",
                         "statistics/tx_heartbeat_errors": "0",
-                        "statistics/tx_packets": "2859",
+                        "statistics/tx_packets": "2469",
                         "statistics/tx_window_errors": "0",
                         "subsystem": "net",
                         "testing": "0",
@@ -195,7 +195,7 @@
                     "IFINDEX": "1",
                     "INTERFACE": "lo",
                     "SUBSYSTEM": "net",
-                    "USEC_INITIALIZED": "791416",
+                    "USEC_INITIALIZED": "804560",
                     "attrs": {
                         "addr_assign_type": "0",
                         "addr_len": "6",
@@ -248,7 +248,7 @@
                         "speed": null,
                         "statistics/collisions": "0",
                         "statistics/multicast": "0",
-                        "statistics/rx_bytes": "21896",
+                        "statistics/rx_bytes": "19061",
                         "statistics/rx_compressed": "0",
                         "statistics/rx_crc_errors": "0",
                         "statistics/rx_dropped": "0",
@@ -259,16 +259,16 @@
                         "statistics/rx_missed_errors": "0",
                         "statistics/rx_nohandler": "0",
                         "statistics/rx_over_errors": "0",
-                        "statistics/rx_packets": "233",
+                        "statistics/rx_packets": "207",
                         "statistics/tx_aborted_errors": "0",
-                        "statistics/tx_bytes": "21896",
+                        "statistics/tx_bytes": "19061",
                         "statistics/tx_carrier_errors": "0",
                         "statistics/tx_compressed": "0",
                         "statistics/tx_dropped": "0",
                         "statistics/tx_errors": "0",
                         "statistics/tx_fifo_errors": "0",
                         "statistics/tx_heartbeat_errors": "0",
-                        "statistics/tx_packets": "233",
+                        "statistics/tx_packets": "207",
                         "statistics/tx_window_errors": "0",
                         "subsystem": "net",
                         "testing": "0",
@@ -359,7 +359,7 @@
                 "type": 2
             },
             {
-                "dst": "fe80::9657:bf23:6259:2bd6",
+                "dst": "fe80::b90a:f06a:e9db:76fe",
                 "family": 10,
                 "ifindex": 2,
                 "table": 255,
@@ -382,7 +382,7 @@
         "blockdev": {
             "/dev/sda": {
                 "CURRENT_TAGS": ":systemd:",
-                "DEVLINKS": "/dev/disk/by-path/pci-0000:00:0d.0-ata-1 /dev/disk/by-diskseq/11 /dev/disk/by-path/pci-0000:00:0d.0-ata-1.0 /dev/disk/by-id/ata-VBOX_HARDDISK_VBcd15fe25-cf302c4a",
+                "DEVLINKS": "/dev/disk/by-id/ata-VBOX_HARDDISK_VBcd15fe25-cf302c4a /dev/disk/by-diskseq/11 /dev/disk/by-path/pci-0000:00:0d.0-ata-1 /dev/disk/by-path/pci-0000:00:0d.0-ata-1.0",
                 "DEVNAME": "/dev/sda",
                 "DEVPATH": "/devices/pci0000:00/0000:00:0d.0/ata3/host2/target2:0:0/2:0:0:0/block/sda",
                 "DEVTYPE": "disk",
@@ -410,7 +410,7 @@
                 "MINOR": "0",
                 "SUBSYSTEM": "block",
                 "TAGS": ":systemd:",
-                "USEC_INITIALIZED": "1253691",
+                "USEC_INITIALIZED": "1218764",
                 "attrs": {
                     "alignment_offset": "0",
                     "bdi": null,
@@ -444,6 +444,7 @@
                     "power/runtime_suspended_time": "0",
                     "power/runtime_usage": "0",
                     "queue/add_random": "1",
+                    "queue/bsg": null,
                     "queue/chunk_sectors": "0",
                     "queue/dax": "0",
                     "queue/discard_granularity": "0",
@@ -492,7 +493,7 @@
                     "removable": "0",
                     "ro": "0",
                     "size": "42949672960",
-                    "stat": "    6752       64   127008     1725      355      685     8256      245        0     1116     2153        0        0        0        0       14      182",
+                    "stat": "    1675        8   112432      949       13        0        0       84        0     1164     1119        0        0        0        0       13       84",
                     "subsystem": "block",
                     "trace/act_mask": "disabled",
                     "trace/enable": "0",
@@ -537,7 +538,7 @@
             },
             "/dev/sda1": {
                 "CURRENT_TAGS": ":systemd:",
-                "DEVLINKS": "/dev/disk/by-path/pci-0000:00:0d.0-ata-1.0-part1 /dev/disk/by-path/pci-0000:00:0d.0-ata-1-part1 /dev/disk/by-partuuid/58462adc-4294-4f8c-8d87-dbc4dbdf2121 /dev/disk/by-id/ata-VBOX_HARDDISK_VBcd15fe25-cf302c4a-part1",
+                "DEVLINKS": "/dev/disk/by-id/ata-VBOX_HARDDISK_VBcd15fe25-cf302c4a-part1 /dev/disk/by-partuuid/58462adc-4294-4f8c-8d87-dbc4dbdf2121 /dev/disk/by-path/pci-0000:00:0d.0-ata-1-part1 /dev/disk/by-path/pci-0000:00:0d.0-ata-1.0-part1",
                 "DEVNAME": "/dev/sda1",
                 "DEVPATH": "/devices/pci0000:00/0000:00:0d.0/ata3/host2/target2:0:0/2:0:0:0/block/sda/sda1",
                 "DEVTYPE": "partition",
@@ -574,7 +575,7 @@
                 "SUBSYSTEM": "block",
                 "TAGS": ":systemd:",
                 "UDISKS_IGNORE": "1",
-                "USEC_INITIALIZED": "1305161",
+                "USEC_INITIALIZED": "1270599",
                 "attrs": {
                     "alignment_offset": "0",
                     "dev": "8:1",
@@ -593,7 +594,7 @@
                     "ro": "0",
                     "size": "1048576",
                     "start": "2048",
-                    "stat": "     125        0     3080       48        0        0        0        0        0      112       48        0        0        0        0        0        0",
+                    "stat": "     159        0     4312       61        0        0        0        0        0      128       61        0        0        0        0        0        0",
                     "subsystem": "block",
                     "trace/act_mask": "disabled",
                     "trace/enable": "0",
@@ -605,7 +606,7 @@
             },
             "/dev/sda2": {
                 "CURRENT_TAGS": ":systemd:",
-                "DEVLINKS": "/dev/disk/by-path/pci-0000:00:0d.0-ata-1.0-part2 /dev/disk/by-id/ata-VBOX_HARDDISK_VBcd15fe25-cf302c4a-part2 /dev/disk/by-uuid/E426-3E23 /dev/disk/by-partlabel/EFI\\x20System\\x20Partition /dev/disk/by-path/pci-0000:00:0d.0-ata-1-part2 /dev/disk/by-partuuid/70e2d52a-de19-4963-a886-1b8f7cb3abb7",
+                "DEVLINKS": "/dev/disk/by-path/pci-0000:00:0d.0-ata-1-part2 /dev/disk/by-partuuid/70e2d52a-de19-4963-a886-1b8f7cb3abb7 /dev/disk/by-partlabel/EFI\\x20System\\x20Partition /dev/disk/by-id/ata-VBOX_HARDDISK_VBcd15fe25-cf302c4a-part2 /dev/disk/by-path/pci-0000:00:0d.0-ata-1.0-part2 /dev/disk/by-uuid/E426-3E23",
                 "DEVNAME": "/dev/sda2",
                 "DEVPATH": "/devices/pci0000:00/0000:00:0d.0/ata3/host2/target2:0:0/2:0:0:0/block/sda/sda2",
                 "DEVTYPE": "partition",
@@ -649,7 +650,7 @@
                 "SUBSYSTEM": "block",
                 "TAGS": ":systemd:",
                 "UDISKS_IGNORE": "1",
-                "USEC_INITIALIZED": "1325584",
+                "USEC_INITIALIZED": "1290811",
                 "attrs": {
                     "alignment_offset": "0",
                     "dev": "8:2",
@@ -668,7 +669,7 @@
                     "ro": "0",
                     "size": "537919488",
                     "start": "4096",
-                    "stat": "     248        7    24339      129        0        0        0        0        0      280      129        0        0        0        0        0        0",
+                    "stat": "     297        7    31523      243        0        0        0        0        0      416      243        0        0        0        0        0        0",
                     "subsystem": "block",
                     "trace/act_mask": "disabled",
                     "trace/enable": "0",
@@ -687,7 +688,7 @@
             },
             "/dev/sda3": {
                 "CURRENT_TAGS": ":systemd:",
-                "DEVLINKS": "/dev/disk/by-path/pci-0000:00:0d.0-ata-1-part3 /dev/disk/by-uuid/4ccbc1a5-73d9-4400-a0af-02b75510922e /dev/disk/by-path/pci-0000:00:0d.0-ata-1.0-part3 /dev/disk/by-partuuid/0cc88dcd-566d-45e1-89c7-c6e442970079 /dev/disk/by-id/ata-VBOX_HARDDISK_VBcd15fe25-cf302c4a-part3",
+                "DEVLINKS": "/dev/disk/by-uuid/4ccbc1a5-73d9-4400-a0af-02b75510922e /dev/disk/by-partuuid/0cc88dcd-566d-45e1-89c7-c6e442970079 /dev/disk/by-path/pci-0000:00:0d.0-ata-1-part3 /dev/disk/by-id/ata-VBOX_HARDDISK_VBcd15fe25-cf302c4a-part3 /dev/disk/by-path/pci-0000:00:0d.0-ata-1.0-part3",
                 "DEVNAME": "/dev/sda3",
                 "DEVPATH": "/devices/pci0000:00/0000:00:0d.0/ata3/host2/target2:0:0/2:0:0:0/block/sda/sda3",
                 "DEVTYPE": "partition",
@@ -728,7 +729,7 @@
                 "PARTN": "3",
                 "SUBSYSTEM": "block",
                 "TAGS": ":systemd:",
-                "USEC_INITIALIZED": "1316442",
+                "USEC_INITIALIZED": "1280614",
                 "attrs": {
                     "alignment_offset": "0",
                     "dev": "8:3",
@@ -747,7 +748,7 @@
                     "ro": "0",
                     "size": "42408607744",
                     "start": "1054720",
-                    "stat": "    5782       57    74418     1254      355      685     8256      245        0      660     1500        0        0        0        0        0        0",
+                    "stat": "     510        1    47010      289       13        0        0       84        0      620      374        0        0        0        0        0        0",
                     "subsystem": "block",
                     "trace/act_mask": "disabled",
                     "trace/enable": "0",
@@ -758,8 +759,8 @@
                 }
             },
             "/dev/sr0": {
-                "CURRENT_TAGS": ":uaccess:systemd:seat:",
-                "DEVLINKS": "/dev/disk/by-uuid/2022-07-04-09-16-13-00 /dev/cdrom /dev/disk/by-id/ata-VBOX_CD-ROM_VB2-01700376 /dev/disk/by-label/Ubuntu\\x2022.10\\x20amd64 /dev/disk/by-path/pci-0000:00:01.1-ata-2.0 /dev/disk/by-path/pci-0000:00:01.1-ata-2 /dev/disk/by-diskseq/10",
+                "CURRENT_TAGS": ":seat:systemd:uaccess:",
+                "DEVLINKS": "/dev/cdrom /dev/disk/by-uuid/2022-07-04-09-16-13-00 /dev/disk/by-path/pci-0000:00:01.1-ata-2 /dev/disk/by-diskseq/10 /dev/disk/by-id/ata-VBOX_CD-ROM_VB2-01700376 /dev/disk/by-path/pci-0000:00:01.1-ata-2.0 /dev/disk/by-label/Ubuntu\\x2022.10\\x20amd64",
                 "DEVNAME": "/dev/sr0",
                 "DEVPATH": "/devices/pci0000:00/0000:00:01.1/ata2/host1/target1:0:0/1:0:0:0/block/sr0",
                 "DEVTYPE": "disk",
@@ -798,8 +799,8 @@
                 "MAJOR": "11",
                 "MINOR": "0",
                 "SUBSYSTEM": "block",
-                "TAGS": ":uaccess:systemd:seat:",
-                "USEC_INITIALIZED": "867722",
+                "TAGS": ":seat:systemd:uaccess:",
+                "USEC_INITIALIZED": "882615",
                 "attrs": {
                     "alignment_offset": "0",
                     "bdi": null,
@@ -882,7 +883,7 @@
                     "removable": "1",
                     "ro": "0",
                     "size": "4440750080",
-                    "stat": "   50312      325  9791128    30845        0        0        0        0        0    51296    30845        0        0        0        0        0        0",
+                    "stat": "   50875      349  9854864    32154        0        0        0        0        0    51792    32154        0        0        0        0        0        0",
                     "subsystem": "block",
                     "trace/act_mask": "disabled",
                     "trace/enable": "0",
@@ -919,6 +920,7 @@
         "dmcrypt": {},
         "filesystem": {
             "/dev/sda2": {
+                "ESTIMATED_MIN_SIZE": -1,
                 "TYPE": "vfat",
                 "USAGE": "filesystem",
                 "UUID": "E426-3E23",
@@ -926,6 +928,8 @@
                 "VERSION": "FAT32"
             },
             "/dev/sda3": {
+                "ESTIMATED_MIN_SIZE": 10282352640,
+                "SIZE": 42408607744,
                 "TYPE": "ext4",
                 "USAGE": "filesystem",
                 "UUID": "4ccbc1a5-73d9-4400-a0af-02b75510922e",
@@ -935,6 +939,7 @@
             "/dev/sr0": {
                 "BOOT_SYSTEM_ID": "EL\\x20TORITO\\x20SPECIFICATION",
                 "DATA_PREPARER_ID": "XORRISO-1.5.2\\x202019.10.26.180001\\x2c\\x20LIBISOBURN-1.5.2\\x2c\\x20LIBISOFS-1.5.2\\x2c\\x20LIBBURN-1.5.2",
+                "ESTIMATED_MIN_SIZE": -1,
                 "LABEL": "Ubuntu_22.10_amd64",
                 "LABEL_ENC": "Ubuntu\\x2022.10\\x20amd64",
                 "TYPE": "iso9660",
@@ -1008,7 +1013,7 @@
                         "children": [
                             {
                                 "fstype": "autofs",
-                                "options": "rw,relatime,fd=29,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=13866",
+                                "options": "rw,relatime,fd=29,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=14082",
                                 "source": "systemd-1",
                                 "target": "/proc/sys/fs/binfmt_misc"
                             }
@@ -1089,7 +1094,7 @@
                                     {
                                         "fstype": "nsfs",
                                         "options": "rw",
-                                        "source": "nsfs[mnt:[4026532502]]",
+                                        "source": "nsfs[mnt:[4026532561]]",
                                         "target": "/run/snapd/ns/firefox.mnt"
                                     },
                                     {
@@ -1137,56 +1142,56 @@
                     {
                         "fstype": "squashfs",
                         "options": "ro,nodev,relatime,errors=continue",
-                        "source": "/dev/loop3",
+                        "source": "/dev/loop11",
                         "target": "/snap/bare/5"
                     },
                     {
                         "fstype": "squashfs",
                         "options": "ro,nodev,relatime,errors=continue",
                         "source": "/dev/loop5",
-                        "target": "/snap/snapd/16010"
-                    },
-                    {
-                        "fstype": "squashfs",
-                        "options": "ro,nodev,relatime,errors=continue",
-                        "source": "/dev/loop6",
-                        "target": "/snap/snap-store/558"
+                        "target": "/snap/gnome-3-38-2004/112"
                     },
                     {
                         "fstype": "squashfs",
                         "options": "ro,nodev,relatime,errors=continue",
                         "source": "/dev/loop7",
-                        "target": "/snap/snapd-desktop-integration/14"
+                        "target": "/snap/snapd/16010"
                     },
                     {
                         "fstype": "squashfs",
                         "options": "ro,nodev,relatime,errors=continue",
-                        "source": "/dev/loop11",
+                        "source": "/dev/loop10",
                         "target": "/snap/ubuntu-desktop-installer/513"
                     },
                     {
                         "fstype": "squashfs",
                         "options": "ro,nodev,relatime,errors=continue",
                         "source": "/dev/loop4",
-                        "target": "/snap/gtk-common-themes/1535"
-                    },
-                    {
-                        "fstype": "squashfs",
-                        "options": "ro,nodev,relatime,errors=continue",
-                        "source": "/dev/loop10",
-                        "target": "/snap/firefox/1498"
+                        "target": "/snap/core20/1518"
                     },
                     {
                         "fstype": "squashfs",
                         "options": "ro,nodev,relatime,errors=continue",
                         "source": "/dev/loop9",
-                        "target": "/snap/gnome-3-38-2004/112"
+                        "target": "/snap/snapd-desktop-integration/14"
+                    },
+                    {
+                        "fstype": "squashfs",
+                        "options": "ro,nodev,relatime,errors=continue",
+                        "source": "/dev/loop3",
+                        "target": "/snap/firefox/1498"
                     },
                     {
                         "fstype": "squashfs",
                         "options": "ro,nodev,relatime,errors=continue",
                         "source": "/dev/loop8",
-                        "target": "/snap/core20/1518"
+                        "target": "/snap/snap-store/558"
+                    },
+                    {
+                        "fstype": "squashfs",
+                        "options": "ro,nodev,relatime,errors=continue",
+                        "source": "/dev/loop6",
+                        "target": "/snap/gtk-common-themes/1535"
                     }
                 ],
                 "fstype": "overlay",
